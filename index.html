@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap"     rel="stylesheet">
+</head>
+
+<body>
+  
+  <canvas id='myCanvas'></canvas>
+  <h1 class='title'>Canvas Painter</h1>
+  <div id='clearContainer'>
+    <button id='clear'>CLEAR</button>
+  </div>
+  
+  <div id='colorContainer'>
+    <div id='pen-size' class='pen-size'>
+      <h2>Pen Size</h2>
+      <label for='pen-size'><i class='fa fa-pencil'></i></label>
+      <input type='range' name='pen-size' id='pen-size' value="10" step="1" min="5" max="50" onchange="penSizeChange(this.value)">
+    </div>
+    <button id='red'>RED</button>
+    <button id='blue'>BLUE</button>
+    <button id='yellow'>YELLOW</button>
+    <button id='green'>GREEN</button>
+    <button id='black'>BLACK</button>
+    <button id='eraser'>ERASER</button>
+  </div>
+  
+  <script src="event.js"></script>
+  <script src="mouseTracker.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

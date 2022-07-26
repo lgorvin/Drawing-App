@@ -1,0 +1,113 @@
+body {
+  background-color: black;
+}
+
+#myCanvas {
+  background-color: white;
+  justify-content: center;
+  place-content: center;
+}
+
+.title{
+  color: red;
+  font-family: "Kanit";
+  text-align: center;
+  padding-bottom: -25px;
+}
+
+#clearContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#clear {
+  color: black;
+  font-family: "Kanit";
+  width: 10%;
+}
+
+#colorContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.pen-size {
+  display: flex;
+  justify-content: center;
+}
+
+.pen-size h2 {
+  color: white;
+  font-family: "Kanit";
+  text-align: center;
+}
+
+#red {
+  background-color: red;
+  font-size: 20px;
+  font-family: "Kanit";
+  border-radius: 30%;
+  margin-right: 20px;
+  width: 5%;
+}
+
+#red:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px white;
+}
+
+#blue {
+  background-color: blue;
+  font-size: 20px;
+  font-family: "Kanit";
+  border-radius: 30%;
+  margin-right: 20px;
+  width: 5%;
+}
+
+#blue:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px white;
+}
+
+#yellow {
+  background-color: yellow;
+  font-size: 20px;
+  font-family: "Kanit";
+  border-radius: 30%;
+  margin-right: 20px;
+  width: 5%;
+}
+
+#yellow:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px white;
+}
+
+#green {
+  background-color: green;
+  font-size: 20px;
+  font-family: "Kanit";
+  border-radius: 30%;
+  margin-right: 20px;
+  width: 5%;
+}
+
+#green:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px white;
+}
+
+#black {
+  background-color: lightgray;
+  font-size: 20px;
+  font-family: "Kanit";
+  border-radius: 30%;
+  margin-right: 20px;
+  width: 5%;
+}
+
+#black:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px white;
+}
